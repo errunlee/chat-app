@@ -1,0 +1,49 @@
+
+.avatar{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.wrapper{
+    min-width: 70%;
+    background-color:#1e1e24;
+}
+.msg-box{
+    height:80vh;
+    width: 100%;
+}
+
+header{
+    height:10vh;
+    width:100%;
+}
+form{
+    height:10vh;
+    width:100%;
+
+}
+form input{
+    width: 80%;
+    font-size:1.4rem;
+    color:white
+}
+form input:focus{
+    outline:none;
+
+}
+form button{
+    width:20%
+}
+.message{
+    border-radius: 20px;
+}
+.sent {
+    /* float: right; */
+}
+.sent input{
+    background-color: #0b93f6 !important;
+}
+
+.err-msg{
+    bottom:10vh
+}

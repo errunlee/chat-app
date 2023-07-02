@@ -7,6 +7,7 @@ const Chatroom = () => {
     if(!currentUser){
         return;
     }
+    document.title='KuraGaram | Chatroom'
   return (
     <div>
       <div className="d-flex justify-content-center">

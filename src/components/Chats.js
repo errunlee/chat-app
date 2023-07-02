@@ -94,7 +94,7 @@ function Chats() {
     <form className="d-flex bg-dark">
     <input className='bg-dark' ref={msgRef} type='text'/>
     <button type='submit' onClick={sendMsg} className='btn btn-primary rounded-0'>
-     <img height={40} src='./assets/send.svg'/>
+     <img className='send-btn' src='./assets/send.svg'/>
     </button>
     </form>
    

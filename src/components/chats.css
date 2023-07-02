@@ -34,6 +34,9 @@ form input:focus{
 form button{
     width:20%
 }
+.send-btn{
+    height:40px;
+}
 .message{
     border-radius: 20px;
 }
@@ -45,5 +48,14 @@ form button{
 }
 
 .err-msg{
-    bottom:10vh
+    bottom:10vh;
 }
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+      min-width: 100%;
+    }
+    .send-btn{
+        height:20px;
+    }
+  }

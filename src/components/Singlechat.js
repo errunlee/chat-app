@@ -9,7 +9,7 @@ function Singlechat({ msg }) {
         <div>
             <div className={`d-flex align-items-center ${myMsg?'  flex-row-reverse':'received'}`}>
                 <img className='avatar' src={msg.photoURL} />
-                <p  className={`border-0 my-2 mx-2 border px-4 py-2 message ${myMsg?'bg-primary text-white':'bg-white'}`}>{msg.msg}</p>
+                <p  className={`border-0 my-2 mx-2 border px-3 py-2 message ${myMsg?'bg-primary text-white':'bg-white'}`}>{msg.msg}</p>
 
             </div>
         </div>
